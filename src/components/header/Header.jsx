@@ -14,16 +14,17 @@ const Header = () => {
       <div className="header__item">
         <Link to="/">Home</Link>
         <Link to="/shop">shop</Link>
-        <Button value="Login" />
+        
+        <Link to="/signup" className="button">Login</Link>
       </div>
       <div className="hamburger__icon" onClick={() => setOpenMenu(!opneMenu)}>
         {opneMenu ? <IoMdClose /> : <RxHamburgerMenu />}
       </div>
       <div className={`hamburger ${opneMenu && "hamburger__active"}`}>
         <div className="hamburger__item">
-        <Link to="/">Home</Link>
-        <Link to="/shop">shop</Link>
-        <Button value="Login" />
+          <Link to="/">Home</Link>
+          <Link to="/shop">shop</Link>
+          <Link to="/signup" className="button">Login</Link>
         </div>
       </div>
     </div>

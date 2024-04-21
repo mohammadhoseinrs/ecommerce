@@ -47,6 +47,4 @@ a {
   color: inherit;
   transition: all 1s ease;
 }
-a:hover {
-  scale: 1.05;
-}
+
