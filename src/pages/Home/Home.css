@@ -1,0 +1,11 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+}
+
+@media (max-width: 500px) {
+  .Home {
+    gap: 70px;
+  }
+}
