@@ -29,7 +29,7 @@ const Login = () => {
           </button>
           <div className="login__guide">
             <Link to="/signup">Create an account?</Link>
-            <p>Forget password?</p>
+            <Link to='/forgetpassword'>Forget password?</Link>
           </div>
         </form>
       </div>
