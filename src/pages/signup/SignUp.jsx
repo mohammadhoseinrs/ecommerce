@@ -69,7 +69,7 @@ const SignUp = () => {
               onChange={inputHandler}
             />
           </div>
-          <button type="submit">Sign Up</button>
+          <button type="submit" className="form__btn">Sign Up</button>
           <div className="sigunp__login">
             <p> Already have an account?</p>
             <Link to="/login">Login</Link>

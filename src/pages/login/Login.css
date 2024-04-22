@@ -1,0 +1,91 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+
+}
+.login div{
+    flex: 1;
+}
+.login__imgConatiner{
+    height: 100%;
+}
+.login__imgConatiner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.login__form{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.login__email{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+.login__email span{
+    color: red;
+}
+.login__form h3{
+    font-size: 40px;
+}
+.login__form p{
+    font-size: 22px;
+    color: #00000098;
+    text-transform: capitalize;
+}
+.login__email label{
+    color: #000000b8;
+    font-size: 18px;
+}
+.login__email input{
+    padding: 15px 10px;
+    border: 1px solid #0000009a;
+    border-radius: 8px;
+}
+.login__guide{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.login__guide a{
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+.login__guide a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+@media(max-width:1200px){
+    .login__form{
+        width: 90%;
+    }
+}
+
+@media (max-width:800px){
+    .login{
+        flex-direction: column-reverse;
+        height: initial;
+    }
+    .login__textConateinr{
+        width: 100%;
+        margin: 2rem 0;
+    }
+}
+
+@media (max-width:500px){
+    .login__form h3 {
+        font-size: 30px;
+    }
+    .login__form p {
+        font-size: 18px;
+    }
+    .login__email input {
+        padding: 10px 5px;
+    }
+}

@@ -46,7 +46,7 @@
 .form__name label span{
     color: red;
 }
-.sigunp__form button{
+.form__btn{
     background-color: black;
     color: #fff;
     font-size: 22px;
@@ -96,7 +96,7 @@
     form__name input {
         padding: 8px;
     }
-    .sigunp__form button {
+    .form__btn {
         font-size: 18px;
     }
 }
