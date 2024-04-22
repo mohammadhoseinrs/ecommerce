@@ -3,6 +3,9 @@
   flex-direction: column;
   gap: 150px;
   overflow: hidden !important;
+  max-width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 @media (max-width: 500px) {

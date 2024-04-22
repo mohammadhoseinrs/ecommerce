@@ -3,6 +3,9 @@
   align-items: center;
   justify-content: space-between;
   height: 100px;
+  max-width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .header__item {
