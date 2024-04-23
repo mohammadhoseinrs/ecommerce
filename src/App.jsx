@@ -1,17 +1,13 @@
-
 import "./App.css";
 
 import { useLocation, useRoutes } from "react-router-dom";
 import routes from "./routes";
+import { useEffect } from "react";
 const App = () => {
-  const location=useLocation()
-  console.log(location);
-  let router=useRoutes(routes)
+  let router = useRoutes(routes);
   return (
     <>
-      <div className="app">
-        {router}
-      </div>
+      <div className="app">{router}</div>
     </>
   );
 };
