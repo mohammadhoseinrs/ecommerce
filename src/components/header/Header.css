@@ -37,11 +37,12 @@
 }
 .hamburger__item {
   margin-top: 5rem;
+  font-size: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 40px;
+  gap: 30px;
 }
 .button {
   background-color: black;
@@ -81,5 +82,8 @@
   .button {
     padding: 1px 5px;
     font-size: 8px;
+  }
+  .hamburger__item .button{
+    font-size: 22px;
   }
 }

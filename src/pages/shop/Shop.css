@@ -99,3 +99,48 @@ input[type="checkbox"]:checked::after {
     margin: 5px 0;
     opacity: 0.7;
 }
+
+@media (max-width:1300px){
+  .shop__item__card{
+    width: 40%;
+  }
+}
+@media (max-width:1000px){
+  .shop__item__card{
+    width: 45%;
+  }
+}
+@media (max-width:800px){
+  .shop{
+    flex-direction: column;
+  }
+  .shop__filter__check{
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .shop__filter__sort__item{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .shop__item__card__textConatiner h4{
+    font-size: 20px;
+  }
+}
+@media (max-width:600px){
+  .shop__filter__check__item{
+    gap: 10px;
+  }
+  .shop__filter__check__item p{
+    font-size: 18px;
+  }
+  .shop__filter h2 , .shop__item h2{
+    font-size: 20px;
+  }
+  .shop__item__card{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+}

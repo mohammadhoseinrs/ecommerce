@@ -9,13 +9,17 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header__log">
-        <img src="./logo-black.svg" alt="" />
+        <Link to="/">
+          <img src="./logo-black.svg" alt="" />
+        </Link>
       </div>
       <div className="header__item">
         <Link to="/">Home</Link>
         <Link to="/shop">shop</Link>
-        
-        <Link to="/signup" className="button">Login</Link>
+
+        <Link to="/signup" className="button">
+          Login
+        </Link>
       </div>
       <div className="hamburger__icon" onClick={() => setOpenMenu(!opneMenu)}>
         {opneMenu ? <IoMdClose /> : <RxHamburgerMenu />}
@@ -24,7 +28,9 @@ const Header = () => {
         <div className="hamburger__item">
           <Link to="/">Home</Link>
           <Link to="/shop">shop</Link>
-          <Link to="/signup" className="button">Login</Link>
+          <Link to="/signup" className="button">
+            Login
+          </Link>
         </div>
       </div>
     </div>
